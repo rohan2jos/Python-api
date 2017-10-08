@@ -27,7 +27,7 @@ The folders in the repository are for the following:
 
 		4. POST endpoint to create a new item in the store specified by a particular name: /store/<name>/item
 
-![first_api_create_new_item](https://user-images.githubusercontent.com/12286807/31321462-1905cbc0-ac4c-11e7-91e0-cff84c1e04b0.jpg
+![first_api_create_new_item](https://user-images.githubusercontent.com/12286807/31321462-1905cbc0-ac4c-11e7-91e0-cff84c1e04b0.jpg)
 
 
 	-first-api-mongo
