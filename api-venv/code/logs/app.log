@@ -1,0 +1,109 @@
+10:03:31 PM  _log() INFO: 87   * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+10:04:09 PM   get() DEBUG: 13  get for Student
+10:04:09 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 22:04:09] "GET /student/Rohan HTTP/1.1" 200 -
+10:04:52 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 22:04:52] "GET /student HTTP/1.1" 404 -
+10:05:00 PM   get() DEBUG: 13  get for Student
+10:05:00 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 22:05:00] "GET /student/Rohan HTTP/1.1" 200 -
+08:30:20 PM  _log() INFO: 87   * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+08:31:24 PM  _log() INFO: 87   * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+08:32:16 PM  post() DEBUG: 22  post for Item chair
+08:32:16 PM  _log() INFO: 87  127.0.0.1 - - [04/Oct/2017 20:32:16] "POST /items/chair HTTP/1.1" 200 -
+08:33:15 PM   get() DEBUG: 15  get for Item
+08:33:15 PM  _log() INFO: 87  127.0.0.1 - - [04/Oct/2017 20:33:15] "GET /items/chair HTTP/1.1" 200 -
+08:34:10 PM   get() DEBUG: 15  get for Item
+08:34:10 PM  _log() INFO: 87  127.0.0.1 - - [04/Oct/2017 20:34:10] "GET /items/piano HTTP/1.1" 200 -
+09:20:45 PM  _log() INFO: 87   * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+09:20:49 PM   get() DEBUG: 19  get for Item
+09:20:49 PM  _log() INFO: 87  127.0.0.1 - - [04/Oct/2017 21:20:49] "GET /items/piano HTTP/1.1" 404 -
+09:37:38 PM  _log() INFO: 87   * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+09:37:38 PM  _log() INFO: 87   * Restarting with stat
+09:37:38 PM  _log() WARNING: 87   * Debugger is active!
+09:37:38 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+09:37:48 PM  post() DEBUG: 39  post for Item chair with price 15.99
+09:37:48 PM  _log() INFO: 87  127.0.0.1 - - [04/Oct/2017 21:37:48] "POST /items/chair HTTP/1.1" 201 -
+12:06:29 PM  _log() INFO: 87   * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+12:06:29 PM  _log() INFO: 87   * Restarting with stat
+12:06:29 PM  _log() WARNING: 87   * Debugger is active!
+12:06:29 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+12:07:03 PM _default_jwt_error_handler() ERROR: 136  Bad Request. Invalid credentials
+12:07:03 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:07:03] "POST /auth HTTP/1.1" 401 -
+12:07:20 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:07:20] "POST /auth HTTP/1.1" 200 -
+12:08:44 PM _default_jwt_error_handler() ERROR: 136  Bad Request. Invalid credentials
+12:08:44 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:08:44] "POST /auth HTTP/1.1" 401 -
+12:09:12 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:09:12] "POST /auth HTTP/1.1" 200 -
+12:11:40 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:11:40] "POST /items/piano HTTP/1.1" 500 -
+12:12:17 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:12:17] "POST /auth HTTP/1.1" 200 -
+12:13:33 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+12:13:33 PM  _log() INFO: 87   * Restarting with stat
+12:13:33 PM  _log() WARNING: 87   * Debugger is active!
+12:13:33 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+12:13:43 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+12:13:43 PM  _log() INFO: 87   * Restarting with stat
+12:13:44 PM  _log() WARNING: 87   * Debugger is active!
+12:13:44 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+12:13:48 PM  _log() INFO: 87   * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+12:13:48 PM  _log() INFO: 87   * Restarting with stat
+12:13:48 PM  _log() WARNING: 87   * Debugger is active!
+12:13:48 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+12:13:54 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:13:54] "POST /auth HTTP/1.1" 200 -
+12:14:05 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:14:05] "POST /items/piano HTTP/1.1" 500 -
+12:15:19 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+12:15:19 PM  _log() INFO: 87   * Restarting with stat
+12:15:19 PM  _log() WARNING: 87   * Debugger is active!
+12:15:19 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+12:15:24 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+12:15:25 PM  _log() INFO: 87   * Restarting with stat
+12:15:25 PM  _log() WARNING: 87   * Debugger is active!
+12:15:25 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+12:15:31 PM  _log() INFO: 87   * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+12:15:31 PM  _log() INFO: 87   * Restarting with stat
+12:15:31 PM  _log() WARNING: 87   * Debugger is active!
+12:15:31 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+12:15:36 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:15:36] "POST /auth HTTP/1.1" 200 -
+12:15:44 PM  post() DEBUG: 72  post for Item piano with price 15.99
+12:15:44 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:15:44] "POST /items/piano HTTP/1.1" 201 -
+12:16:03 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:16:03] "GET /items HTTP/1.1" 404 -
+12:17:10 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+12:17:10 PM  _log() INFO: 87   * Restarting with stat
+12:17:10 PM  _log() WARNING: 87   * Debugger is active!
+12:17:10 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+12:17:25 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+12:17:25 PM  _log() INFO: 87   * Restarting with stat
+12:17:25 PM  _log() WARNING: 87   * Debugger is active!
+12:17:25 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+12:17:36 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+12:17:36 PM  _log() INFO: 87   * Restarting with stat
+12:17:36 PM  _log() WARNING: 87   * Debugger is active!
+12:17:36 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+12:17:42 PM  _log() INFO: 87   * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+12:17:42 PM  _log() INFO: 87   * Restarting with stat
+12:17:42 PM  _log() WARNING: 87   * Debugger is active!
+12:17:42 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+12:17:46 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:17:46] "POST /auth HTTP/1.1" 200 -
+12:18:06 PM  post() DEBUG: 77  post for Item piano with price 15.99
+12:18:06 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:18:06] "POST /items/piano HTTP/1.1" 201 -
+12:18:10 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:18:10] "GET /items HTTP/1.1" 404 -
+12:20:20 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:20:20] "GET /items HTTP/1.1" 404 -
+12:20:29 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:20:29] "GET /itemList HTTP/1.1" 404 -
+12:21:00 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:21:00] "GET /itemList HTTP/1.1" 404 -
+12:21:41 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+12:21:41 PM  _log() INFO: 87   * Restarting with stat
+12:21:41 PM  _log() WARNING: 87   * Debugger is active!
+12:21:41 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+12:21:54 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:21:54] "GET /itemList HTTP/1.1" 404 -
+12:22:40 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:22:40] "GET /itemlist HTTP/1.1" 200 -
+12:22:48 PM  post() DEBUG: 77  post for Item piano with price 15.99
+12:22:48 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:22:48] "POST /items/piano HTTP/1.1" 201 -
+12:22:52 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:22:52] "GET /itemlist HTTP/1.1" 200 -
+12:23:14 PM _default_jwt_error_handler() ERROR: 136  Authorization Required. Request does not contain an access token
+12:23:14 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:23:14] "GET /items/piano HTTP/1.1" 401 -
+12:24:23 PM _default_jwt_error_handler() ERROR: 136  Invalid token. Signature has expired
+12:24:23 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:24:23] "GET /items/piano HTTP/1.1" 401 -
+12:24:30 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:24:30] "POST /auth HTTP/1.1" 200 -
+12:25:02 PM   get() DEBUG: 49  get for Item
+12:25:02 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:25:02] "GET /items/piano HTTP/1.1" 200 -
+12:27:35 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 12:27:35] "GET /itemlist HTTP/1.1" 200 -
+12:29:14 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+12:29:14 PM  _log() INFO: 87   * Restarting with stat
+12:29:14 PM  _log() WARNING: 87   * Debugger is active!
+12:29:14 PM  _log() INFO: 87   * Debugger PIN: 226-664-632

@@ -1,0 +1,59 @@
+08:24:34 PM  _log() INFO: 87   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+08:24:44 PM  _log() INFO: 87  127.0.0.1 - - [27/Sep/2017 20:24:44] "GET / HTTP/1.1" 500 -
+08:24:44 PM  _log() INFO: 87  127.0.0.1 - - [27/Sep/2017 20:24:44] "GET /favicon.ico HTTP/1.1" 404 -
+08:24:51 PM  _log() INFO: 87  127.0.0.1 - - [27/Sep/2017 20:24:51] "GET / HTTP/1.1" 500 -
+08:27:06 PM  _log() INFO: 87   * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+08:27:11 PM  _log() INFO: 87  127.0.0.1 - - [27/Sep/2017 20:27:11] "GET / HTTP/1.1" 500 -
+08:27:16 PM  _log() INFO: 87  127.0.0.1 - - [27/Sep/2017 20:27:16] "GET / HTTP/1.1" 500 -
+08:27:21 PM  _log() INFO: 87  127.0.0.1 - - [27/Sep/2017 20:27:21] "GET / HTTP/1.1" 200 -
+08:27:21 PM  _log() INFO: 87  127.0.0.1 - - [27/Sep/2017 20:27:21] "GET /favicon.ico HTTP/1.1" 404 -
+10:28:57 PM  _log() INFO: 87   * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+10:29:03 PM  _log() INFO: 87  127.0.0.1 - - [27/Sep/2017 22:29:03] "GET / HTTP/1.1" 200 -
+11:22:06 PM  _log() INFO: 87   * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+11:22:14 PM get_all_stores() DEBUG: 93  returning all stores
+11:22:14 PM  _log() INFO: 87  127.0.0.1 - - [27/Sep/2017 23:22:14] "GET /store HTTP/1.1" 200 -
+07:41:34 PM  _log() INFO: 87   * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+07:43:15 PM get_all_stores() DEBUG: 93  returning all stores
+07:43:15 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 19:43:15] "GET /store HTTP/1.1" 200 -
+07:45:06 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 19:45:06] "GET /store/store-1 HTTP/1.1" 500 -
+07:49:52 PM  _log() INFO: 87   * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+07:49:58 PM get_store_by_name() DEBUG: 126  returning a store of requested name: store-1
+07:49:58 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 19:49:58] "GET /store/store-1 HTTP/1.1" 200 -
+07:50:05 PM get_item_list() DEBUG: 172  getting all the items inside a particular store: store-1
+07:50:05 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 19:50:05] "GET /store/store-1/item HTTP/1.1" 500 -
+07:50:33 PM  _log() INFO: 87   * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+07:50:37 PM get_item_list() DEBUG: 172  getting all the items inside a particular store: store-1
+07:50:37 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 19:50:37] "GET /store/store-1/item HTTP/1.1" 200 -
+07:53:58 PM create_new_store() DEBUG: 107  creating new store with supplied name: new-store
+07:53:59 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 19:53:59] "POST /store HTTP/1.1" 200 -
+07:54:05 PM get_all_stores() DEBUG: 93  returning all stores
+07:54:05 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 19:54:05] "GET /store HTTP/1.1" 200 -
+07:56:05 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 19:56:05] "POST /store-2/item HTTP/1.1" 404 -
+07:56:41 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 19:56:41] "POST /store/store-2/item HTTP/1.1" 500 -
+08:02:21 PM  _log() INFO: 87   * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+08:02:28 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 20:02:28] "POST /store/store-2/item HTTP/1.1" 500 -
+08:04:04 PM  _log() INFO: 87   * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+08:04:09 PM create_item_in_store() DEBUG: 148  creating an item in a specific store: store-2
+08:04:09 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 20:04:09] "POST /store/store-2/item HTTP/1.1" 200 -
+08:04:16 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 20:04:16] "POST /store HTTP/1.1" 500 -
+08:04:38 PM get_all_stores() DEBUG: 93  returning all stores
+08:04:38 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 20:04:38] "GET /store HTTP/1.1" 200 -
+08:06:19 PM  _log() INFO: 87   * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+08:06:23 PM get_all_stores() DEBUG: 93  returning all stores
+08:06:23 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 20:06:23] "GET /store HTTP/1.1" 200 -
+08:09:02 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 20:09:02] "GET /store/store-2/ HTTP/1.1" 404 -
+08:09:11 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 20:09:11] "GET /store-2/ HTTP/1.1" 404 -
+08:09:34 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 20:09:34] "GET /store/store-2/ HTTP/1.1" 404 -
+08:10:17 PM get_all_stores() DEBUG: 93  returning all stores
+08:10:17 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 20:10:17] "GET /store HTTP/1.1" 200 -
+08:10:24 PM get_store_by_name() DEBUG: 130  returning a store of requested name: store-1
+08:10:24 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 20:10:24] "GET /store/store-1 HTTP/1.1" 200 -
+08:10:28 PM get_store_by_name() DEBUG: 130  returning a store of requested name: store-2
+08:10:28 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 20:10:28] "GET /store/store-2 HTTP/1.1" 200 -
+08:12:02 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 20:12:02] "POST /store/store-new/ HTTP/1.1" 404 -
+08:12:35 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 20:12:35] "POST /store/ HTTP/1.1" 404 -
+08:12:48 PM create_new_store() DEBUG: 107  creating new store with supplied name: new-store
+08:12:48 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 20:12:48] "POST /store HTTP/1.1" 200 -
+08:13:43 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 20:13:43] "POST /store-2/item HTTP/1.1" 404 -
+08:14:11 PM create_item_in_store() DEBUG: 156  creating an item in a specific store: store-2
+08:14:11 PM  _log() INFO: 87  127.0.0.1 - - [28/Sep/2017 20:14:11] "POST /store/store-2/item HTTP/1.1" 200 -

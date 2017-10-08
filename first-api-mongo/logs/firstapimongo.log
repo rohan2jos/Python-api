@@ -1,0 +1,22 @@
+03:26:58 PM  _log() INFO: 87   * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+03:27:02 PM  _log() INFO: 87  127.0.0.1 - - [29/Sep/2017 15:27:02] "GET /store HTTP/1.1" 500 -
+03:27:02 PM  _log() INFO: 87  127.0.0.1 - - [29/Sep/2017 15:27:02] "GET /favicon.ico HTTP/1.1" 404 -
+03:27:47 PM  _log() INFO: 87   * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+03:27:48 PM  _log() INFO: 87  127.0.0.1 - - [29/Sep/2017 15:27:48] "GET /store HTTP/1.1" 200 -
+03:28:17 PM  _log() INFO: 87   * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+03:28:19 PM  _log() INFO: 87  127.0.0.1 - - [29/Sep/2017 15:28:19] "GET /store HTTP/1.1" 500 -
+03:28:52 PM  _log() INFO: 87   * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+03:28:55 PM  _log() INFO: 87  127.0.0.1 - - [29/Sep/2017 15:28:55] "GET /store HTTP/1.1" 500 -
+03:29:42 PM  _log() INFO: 87   * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+03:29:43 PM  _log() INFO: 87  127.0.0.1 - - [29/Sep/2017 15:29:43] "GET /store HTTP/1.1" 500 -
+03:33:29 PM  _log() INFO: 87   * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+03:33:32 PM convert_to_json() DEBUG: 18  converting the mongo data to json
+03:33:32 PM  _log() INFO: 87  127.0.0.1 - - [29/Sep/2017 15:33:32] "GET /store HTTP/1.1" 500 -
+03:35:07 PM  _log() INFO: 87   * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+03:35:11 PM convert_to_json() DEBUG: 19  converting the mongo data to json
+03:35:11 PM  _log() INFO: 87  127.0.0.1 - - [29/Sep/2017 15:35:11] "GET /store HTTP/1.1" 200 -
+03:38:51 PM  _log() INFO: 87   * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+03:38:55 PM get_item_list() DEBUG: 203  getting all the items inside a particular store: store-1
+03:38:55 PM get_item_list() DEBUG: 216  store found, displaying items
+03:38:55 PM convert_to_json() DEBUG: 19  converting the mongo data to json
+03:38:55 PM  _log() INFO: 87  127.0.0.1 - - [29/Sep/2017 15:38:55] "GET /store/store-1/item HTTP/1.1" 200 -
