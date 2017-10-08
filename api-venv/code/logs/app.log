@@ -107,3 +107,135 @@
 12:29:14 PM  _log() INFO: 87   * Restarting with stat
 12:29:14 PM  _log() WARNING: 87   * Debugger is active!
 12:29:14 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+01:39:13 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+01:39:13 PM  _log() INFO: 87   * Restarting with stat
+02:28:25 PM  _log() INFO: 87   * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+02:28:25 PM  _log() INFO: 87   * Restarting with stat
+02:28:25 PM  _log() WARNING: 87   * Debugger is active!
+02:28:25 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+02:28:31 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:28:31] "GET /itemlist HTTP/1.1" 200 -
+02:28:34 PM  post() DEBUG: 74  post for Item piano with price 15.99
+02:28:34 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:28:34] "POST /items/piano HTTP/1.1" 201 -
+02:28:37 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:28:37] "GET /itemlist HTTP/1.1" 200 -
+02:28:57 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:28:57] "DELETE /items/piano HTTP/1.1" 200 -
+02:30:28 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+02:30:28 PM  _log() INFO: 87   * Restarting with stat
+02:30:28 PM  _log() WARNING: 87   * Debugger is active!
+02:30:28 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+02:30:53 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+02:30:53 PM  _log() INFO: 87   * Restarting with stat
+02:36:56 PM  _log() INFO: 87   * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+02:36:56 PM  _log() INFO: 87   * Restarting with stat
+02:36:56 PM  _log() WARNING: 87   * Debugger is active!
+02:36:56 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+02:37:02 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:37:02] "GET /itemlist HTTP/1.1" 200 -
+02:37:08 PM  post() DEBUG: 74  post for Item piano with price 15.99
+02:37:08 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:37:08] "POST /items/piano HTTP/1.1" 201 -
+02:37:11 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:37:11] "GET /itemlist HTTP/1.1" 200 -
+02:37:45 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:37:45] "PUT /items/piano HTTP/1.1" 200 -
+02:38:08 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+02:38:08 PM  _log() INFO: 87   * Restarting with stat
+02:38:08 PM  _log() WARNING: 87   * Debugger is active!
+02:38:08 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+02:38:14 PM  _log() INFO: 87   * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+02:38:14 PM  _log() INFO: 87   * Restarting with stat
+02:38:14 PM  _log() WARNING: 87   * Debugger is active!
+02:38:14 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+02:38:17 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:38:17] "GET /itemlist HTTP/1.1" 200 -
+02:38:22 PM  post() DEBUG: 74  post for Item piano with price 15.99
+02:38:22 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:38:22] "POST /items/piano HTTP/1.1" 201 -
+02:38:26 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:38:26] "GET /itemlist HTTP/1.1" 200 -
+02:38:30 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:38:30] "PUT /items/piano HTTP/1.1" 200 -
+02:38:33 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:38:33] "GET /itemlist HTTP/1.1" 200 -
+02:39:38 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:39:38] "POST /items/piano HTTP/1.1" 400 -
+02:40:01 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:40:01] "GET /itemlist HTTP/1.1" 200 -
+02:47:56 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+02:47:56 PM  _log() INFO: 87   * Restarting with stat
+02:47:56 PM  _log() WARNING: 87   * Debugger is active!
+02:47:56 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+02:50:06 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+02:50:06 PM  _log() INFO: 87   * Restarting with stat
+02:50:06 PM  _log() WARNING: 87   * Debugger is active!
+02:50:06 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+02:50:44 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+02:50:44 PM  _log() INFO: 87   * Restarting with stat
+02:50:44 PM  _log() WARNING: 87   * Debugger is active!
+02:50:44 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+02:50:58 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+02:50:58 PM  _log() INFO: 87   * Restarting with stat
+02:50:58 PM  _log() WARNING: 87   * Debugger is active!
+02:50:58 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+02:51:09 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+02:51:09 PM  _log() INFO: 87   * Restarting with stat
+02:51:09 PM  _log() WARNING: 87   * Debugger is active!
+02:51:09 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+02:51:11 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+02:51:11 PM  _log() INFO: 87   * Restarting with stat
+02:51:11 PM  _log() WARNING: 87   * Debugger is active!
+02:51:11 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+02:51:37 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+02:51:37 PM  _log() INFO: 87   * Restarting with stat
+02:51:37 PM  _log() WARNING: 87   * Debugger is active!
+02:51:37 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+02:51:44 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+02:51:44 PM  _log() INFO: 87   * Restarting with stat
+02:51:45 PM  _log() WARNING: 87   * Debugger is active!
+02:51:45 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+02:52:17 PM  _log() INFO: 87   * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+02:52:17 PM  _log() INFO: 87   * Restarting with stat
+02:52:17 PM  _log() WARNING: 87   * Debugger is active!
+02:52:17 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+02:52:23 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:52:23] "GET /itemlist HTTP/1.1" 200 -
+02:52:28 PM  post() DEBUG: 74  post for Item piano with price 15.99
+02:52:28 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:52:28] "POST /items/piano HTTP/1.1" 201 -
+02:52:31 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:52:31] "GET /itemlist HTTP/1.1" 200 -
+02:52:50 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:52:50] "PUT /items/piano HTTP/1.1" 400 -
+02:53:20 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:53:20] "GET /itemlist HTTP/1.1" 200 -
+02:53:28 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:53:28] "PUT /items/piano HTTP/1.1" 200 -
+02:53:50 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 14:53:50] "GET /itemlist HTTP/1.1" 200 -
+04:59:46 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+04:59:46 PM  _log() INFO: 87   * Restarting with stat
+04:59:46 PM  _log() WARNING: 87   * Debugger is active!
+04:59:46 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+05:00:35 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+05:00:35 PM  _log() INFO: 87   * Restarting with stat
+05:00:35 PM  _log() WARNING: 87   * Debugger is active!
+05:00:35 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+05:00:59 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+05:00:59 PM  _log() INFO: 87   * Restarting with stat
+05:00:59 PM  _log() WARNING: 87   * Debugger is active!
+05:00:59 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+05:01:44 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+05:01:44 PM  _log() INFO: 87   * Restarting with stat
+05:01:44 PM  _log() WARNING: 87   * Debugger is active!
+05:01:44 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+05:03:38 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+05:03:38 PM  _log() INFO: 87   * Restarting with stat
+05:03:38 PM  _log() WARNING: 87   * Debugger is active!
+05:03:38 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+05:03:50 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+05:03:50 PM  _log() INFO: 87   * Restarting with stat
+05:03:50 PM  _log() WARNING: 87   * Debugger is active!
+05:03:50 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+05:03:55 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+05:03:55 PM  _log() INFO: 87   * Restarting with stat
+05:03:55 PM  _log() WARNING: 87   * Debugger is active!
+05:03:55 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+05:04:09 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+05:04:09 PM  _log() INFO: 87   * Restarting with stat
+05:04:09 PM  _log() WARNING: 87   * Debugger is active!
+05:04:09 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+05:04:38 PM  _log() INFO: 87   * Detected change in '/home/rohan/Documents/Programs/sideprojects/Courses/Udemy-python-api/api-venv/code/app.py', reloading
+05:04:38 PM  _log() INFO: 87   * Restarting with stat
+05:04:38 PM  _log() WARNING: 87   * Debugger is active!
+05:04:38 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+05:05:10 PM  _log() INFO: 87   * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+05:05:10 PM  _log() INFO: 87   * Restarting with stat
+05:05:10 PM  _log() WARNING: 87   * Debugger is active!
+05:05:10 PM  _log() INFO: 87   * Debugger PIN: 226-664-632
+05:05:14 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 17:05:14] "GET /itemlist HTTP/1.1" 200 -
+05:05:22 PM  post() DEBUG: 77  post for Item piano with price 15.99
+05:05:22 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 17:05:22] "POST /items/piano HTTP/1.1" 201 -
+05:05:26 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 17:05:26] "GET /itemlist HTTP/1.1" 200 -
+05:05:29 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 17:05:29] "PUT /items/piano HTTP/1.1" 200 -
+05:05:33 PM  _log() INFO: 87  127.0.0.1 - - [08/Oct/2017 17:05:33] "GET /itemlist HTTP/1.1" 200 -

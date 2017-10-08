@@ -9,7 +9,7 @@ logging.basicConfig(filename="logs/app.log", level=logging.DEBUG, format='%(asct
 '''
 
 from flask import Flask, request
-from flask_restful import Resource, Api
+from flask_restful import Resource, Api, reqparse
 from flask_jwt import JWT, jwt_required
 from security import authenticate, identity
 
@@ -37,6 +37,11 @@ jwt = JWT(app, authenticate, identity)
 items = []
 
 class Item(Resource):
+    parser = reqparse.RequestParser()
+    parser.add_argument('price',
+                        type=float,
+                        required=True,
+                        help="this field cannot be left blank, post requires a price")
 
     '''
     return the item with the name specified
@@ -61,20 +66,40 @@ class Item(Resource):
     present in the list, then return a 400: Bad request message/error
     '''
     def post(self, name):
-        '''
-        if next(filter(lambda x: x['name'] == name, items)):
-            return {"message", "item with name {} already exists".format(name)}, 400
-        '''
+
         for x in items:
             if x['name'] == name:
                 return {"message": "the item already exits"}, 400
 
-        data = request.get_json(force=True)
+        data = Item.parser.parse_args()
+
         data_price = data['price']
         logging.debug('post for Item ' + name + " with price " + str(data_price))
         temp_item = {'name': name, 'price': data_price}
         items.append(temp_item)
         return temp_item, 201
+
+    def delete(self, name):
+        global items
+        temp_list = list(filter(lambda x: x['name'] != name, items))
+        items = temp_list
+        return {"message": "item deleted!"}
+
+    def put(self, name):
+
+        # get the data from the json data sent
+        data = Item.parser.parse_args()
+
+        for x in items:
+            if x['name'] == name:
+                temp_item = x
+
+        if temp_item is None:
+            temp_item = {"name": name, "price": data['price']}
+            items.append(temp_item)
+        else:
+            temp_item.update(data)
+        return temp_item
 
 
 '''
