@@ -8,6 +8,8 @@ The folders in the repository are for the following:
 	- first-api
 		- This contains basic code for an in memory data object
 		- Code for setting up basic endpoints
+		![first_api_get](https://user-images.githubusercontent.com/12286807/31319878-b5ea9c8e-ac30-11e7-849a-73cd7045e920.jpg)
+
 	-first-api-mongo
 		- This contains code for the same endpoints, but with the data in mongo-db
 	- api-venv
