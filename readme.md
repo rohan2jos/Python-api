@@ -3,6 +3,12 @@ Github repository for python api learning
 Purpose: This repository contains all the code that I have written when learning Python restful api's with Flask
 
 Contents:
+--------
+1. First-api: This contains basic endpoints with GET and POST with in-memory structures
+2. First-api-mongo: This contains endpoints with data being stored and retrieved with pymongo from a mongodb running on the localhost
+3. api-venv: This contains and API written with Flask_restful and JWT for authentication and session management
+
+**Testing:** The testing is done with Postman
 
 The folders in the repository are for the following:
 	- first-api
@@ -54,8 +60,3 @@ A screenshot of the POST endpoint to create a new item in a particular store is 
 ![first_api_create_new_item](https://user-images.githubusercontent.com/12286807/31321462-1905cbc0-ac4c-11e7-91e0-cff84c1e04b0.jpg)
 
 
-	-first-api-mongo
-		- This contains code for the same endpoints, but with the data in mongo-db
-	- api-venv
-		- This contains code for Flask-restful and JWT
-		- This contains test first code and authentication and session management
