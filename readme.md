@@ -10,9 +10,9 @@ The folders in the repository are for the following:
 		- Code for setting up basic endpoints
 
 
-		###ENDPOINTS:
-
-		1. **GET endpoint for store list - /store:**
+ENDPOINTS:
+---------
+		1. GET endpoint for store list - /store:
 		The GET endpoint for /store returns a list of stores in the in-memory Dictionary 'stores'
 			- We return a jsonified version of the dictionary, since the Python 'stores' in the code is a list of dictionaries
 
