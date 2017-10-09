@@ -13,15 +13,27 @@ The folders in the repository are for the following:
 		ENDPOINTS:
 
 		1. GET endpoint for store list - /store:
+		The GET endpoint for /store returns a list of stores in the in-memory Dictionary 'stores'
+			- We return a jsonified version of the dictionary, since the Python 'stores' in the code is a list of dictionaries
+
 
 ![first_api_get](https://user-images.githubusercontent.com/12286807/31319878-b5ea9c8e-ac30-11e7-849a-73cd7045e920.jpg)
 		
 		2. GET endpoint for store with particular name - /store/<name>:
+		The GET endpoint for /store/<name> takes the name of the particular store in the url
+			- We use the name that is sent in the url, and iterate over the 'stores'
+			- If the store is found, we return a jsonified store
+			- If the store is not found, we return a jsonified message telling the store was not found
+
 	
 ![first_api_get_store_by_name](https://user-images.githubusercontent.com/12286807/31321479-62ce810c-ac4c-11e7-9379-24fdf90e78ef.jpg)
 
 
 		3. POST endpoint to create a new store - /store:
+		The POST endpoint to create a new store takes the data in the Body of the Header
+			- The JSON data - name and list of items is sent via the Body in the header of the request
+			- The request.get_json() is used to extract the supplied data
+			- Once the data is taken, the new store is created and appended to the in-memory 'stores'
 
 ![first_api_create_new_store](https://user-images.githubusercontent.com/12286807/31321454-f29bcf48-ac4b-11e7-82ee-7d0c6bf2c9a4.jpg)
 
