@@ -1,6 +1,6 @@
 first-api
 
-For screenshots and more description: [here](https://github.com/rohan2jos/Python-api/blob/master/readme.md)
+For screenshots and more description: https://github.com/rohan2jos/Python-api/blob/master/readme.md
 
 basic api for getting a list of stores, adding a store, getting the items in a store and adding an item to a particular store
 
