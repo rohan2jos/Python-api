@@ -21,7 +21,7 @@ A screenshot of the GET endpoint for /store returning the list of stores is show
 
 ![first_api_get](https://user-images.githubusercontent.com/12286807/31319878-b5ea9c8e-ac30-11e7-849a-73cd7045e920.jpg)
 		
-2. **GET endpoint for store with particular name - /store/<name>:**
+2. **GET endpoint to get a store with a name - /store/name:**
 The GET endpoint for /store/<name> takes the name of the particular store in the url
 	- We use the name that is sent in the url, and iterate over the 'stores'
 	- If the store is found, we return a jsonified store
