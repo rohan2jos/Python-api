@@ -42,6 +42,14 @@ A screenshot of the POST endpoint creating a new store with the data sent in the
 ![first_api_create_new_store](https://user-images.githubusercontent.com/12286807/31321454-f29bcf48-ac4b-11e7-82ee-7d0c6bf2c9a4.jpg)
 
 		4. POST endpoint to create a new item in the store specified by a particular name: /store/<name>/item
+		The POST endpoint to create a new item in a particular store uses the name of the store passed in through the url and
+		the item details passed in through the header of the request
+			- The name will be searched for in the in-memory 'stores' and then if found, a new item will be appended
+			to the list of items for that store
+			- We will then return a jsonified item that has just been created
+			- If the name is not found in the in-memory 'stores', we will return a jsonified message saying so
+
+A screenshot of the POST endpoint to create a new item in a particular store is shown below:
 
 ![first_api_create_new_item](https://user-images.githubusercontent.com/12286807/31321462-1905cbc0-ac4c-11e7-91e0-cff84c1e04b0.jpg)
 
